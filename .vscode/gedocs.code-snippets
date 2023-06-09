@@ -1,0 +1,21 @@
+{
+	"Remix Metafunction": {
+	  "prefix": "remixmeta",
+	  "body": [
+		"import type { V2_MetaFunction } from \"@remix-run/node\";\n",
+		"export const meta: V2_MetaFunction = () => {\n",
+		"  return [\n",
+		"    { title: \"New Remix App\" },\n",
+		"    { name: \"description\", content: \"Welcome to Remix!\" },\n",
+		"  ];\n",
+		"};\n",
+		"export default function Index() {\n",
+		"  return (\n",
+		"    <>\n",
+		"    </>\n",
+		"  );\n",
+		"}"
+	  ],
+	  "description": "Template for Remix Meta Function"
+	}
+  }
